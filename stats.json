@@ -1,29 +1,29 @@
 {
   "updated": "2026-08-15",
   "metrics": {
-    "commits": 951,
-    "repos": 10,
+    "commits": 443,
+    "repos": 9,
     "stars": 10,
     "followers": 2
   },
   "streak": {
-    "current": 3,
-    "longest": 9,
+    "current": 9,
+    "longest": 12,
     "spark": [
-      2,
-      0,
-      1,
-      3,
-      0,
-      0,
       4,
-      2,
-      5,
       1,
+      4,
+      4,
       0,
+      9,
+      8,
       2,
+      7,
       3,
-      4
+      4,
+      8,
+      11,
+      3
     ]
   },
   "auto_projects": [
@@ -40,10 +40,10 @@
       "lang": "Kotlin"
     },
     {
-      "name": "annotation",
+      "name": "Utophii",
       "stars": 0,
-      "desc": "Transparent overlay for drawing on the screen",
-      "lang": "Rust"
+      "desc": "",
+      "lang": "Python"
     }
   ],
   "activity": {
