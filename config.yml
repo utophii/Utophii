@@ -34,7 +34,7 @@ stack:
 
 projects:
   mode:   "auto"
-  max:    3
+  max:    2
   pinned: []
 
 auto_projects: []
