@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="860" height="560" viewBox="0 0 860 560" role="img" aria-label="utophii profile">
+<svg xmlns="http://www.w3.org/2000/svg" width="860" height="692" viewBox="0 0 860 692" role="img" aria-label="utophii profile">
 <style>
 *{box-sizing:border-box;margin:0;padding:0}
 .root{font-family:'Segoe UI',system-ui,-apple-system,sans-serif;background:#F5F9FC;
@@ -71,7 +71,7 @@
 .pname{font-size:14px;font-weight:600;color:#3A5570}
 .pstars{font-size:11.5px;color:#6FA8D6}
 .pdesc{margin-top:6px;font-size:11.5px;line-height:1.45;color:#6E8CA6;
-  min-height:32px}
+  height:50px;overflow:hidden}
 .pmeta{margin-top:8px}
 .plang{font-size:10.5px;color:#A3B8CB;letter-spacing:.08em;
   text-transform:uppercase}
@@ -82,7 +82,7 @@
   animation:fadeup .6s .45s ease backwards}
 .foot b{color:#6FA8D6;font-weight:400}
 </style>
-<foreignObject x="0" y="0" width="860" height="560">
+<foreignObject x="0" y="0" width="860" height="692">
 <div class="root" xmlns="http://www.w3.org/1999/xhtml">
   <div class="wave"></div>
   <div class="head">
@@ -102,9 +102,9 @@
     <div class="card livec">
       <div>
         <div class="ct"><i></i>this year</div>
-        <div class="metrics"><div class="mcell"><div class="mval">444</div><div class="mlbl">commits</div></div><div class="mcell"><div class="mval">9</div><div class="mlbl">repos</div></div><div class="mcell"><div class="mval">10</div><div class="mlbl">stars</div></div><div class="mcell"><div class="mval">2</div><div class="mlbl">followers</div></div></div>
+        <div class="metrics"><div class="mcell"><div class="mval">446</div><div class="mlbl">commits</div></div><div class="mcell"><div class="mval">9</div><div class="mlbl">repos</div></div><div class="mcell"><div class="mval">10</div><div class="mlbl">stars</div></div><div class="mcell"><div class="mval">2</div><div class="mlbl">followers</div></div></div>
       </div>
-      <div class="streak"><div class="spark"><i class="bar lit" style="height:9px"></i><i class="bar lit" style="height:3px"></i><i class="bar lit" style="height:9px"></i><i class="bar lit" style="height:9px"></i><i class="bar" style="height:3px"></i><i class="bar lit" style="height:21px"></i><i class="bar lit" style="height:19px"></i><i class="bar lit" style="height:5px"></i><i class="bar lit" style="height:17px"></i><i class="bar lit" style="height:7px"></i><i class="bar lit" style="height:9px"></i><i class="bar lit" style="height:19px"></i><i class="bar lit" style="height:26px"></i><i class="bar lit" style="height:9px"></i></div><div class="sinfo"><span class="snum">9</span><span class="sl">day streak</span><span class="sdiv">·</span><span class="snum dim">12</span><span class="sl">longest</span></div></div>
+      <div class="streak"><div class="spark"><i class="bar lit" style="height:9px"></i><i class="bar lit" style="height:3px"></i><i class="bar lit" style="height:9px"></i><i class="bar lit" style="height:9px"></i><i class="bar" style="height:3px"></i><i class="bar lit" style="height:20px"></i><i class="bar lit" style="height:17px"></i><i class="bar lit" style="height:4px"></i><i class="bar lit" style="height:15px"></i><i class="bar lit" style="height:6px"></i><i class="bar lit" style="height:9px"></i><i class="bar lit" style="height:24px"></i><i class="bar lit" style="height:26px"></i><i class="bar lit" style="height:13px"></i></div><div class="sinfo"><span class="snum">9</span><span class="sl">day streak</span><span class="sdiv">·</span><span class="snum dim">12</span><span class="sl">longest</span></div></div>
     </div>
   </div>
   <div class="card projc">
