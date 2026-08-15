@@ -217,7 +217,7 @@ CSS = """
 .pname{font-size:14px;font-weight:600;color:%TEXT%}
 .pstars{font-size:11.5px;color:%ACCENT%}
 .pdesc{margin-top:6px;font-size:11.5px;line-height:1.45;color:%TEXT_MID%;
-  min-height:32px}
+  height:50px;overflow:hidden}
 .pmeta{margin-top:8px}
 .plang{font-size:10.5px;color:%TEXT_DIM%;letter-spacing:.08em;
   text-transform:uppercase}
@@ -290,9 +290,9 @@ def build(cfg):
 </div>"""
 
     stack_rows = len(cfg["stack"])
-    height = 520 + max(0, stack_rows - 4) * 34
-    if pick_projects(cfg) or True:
-        height += 40
+    height = 650 + max(0, stack_rows - 4) * 40
+    if cfg["focus"]:
+        height += 42
 
     return f"""<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{height}" viewBox="0 0 {W} {height}" role="img" aria-label="{esc(ident['username'])} profile">
 <style>{css}</style>
