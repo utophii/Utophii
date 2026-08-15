@@ -1,35 +1,35 @@
 {
   "updated": "2026-08-15",
   "metrics": {
-    "commits": 446,
-    "repos": 9,
-    "stars": 10,
-    "followers": 2
+    "commits": 466,
+    "repos": 6,
+    "stars": 11,
+    "followers": 3
   },
   "streak": {
-    "current": 9,
-    "longest": 12,
+    "current": 19,
+    "longest": 19,
     "spark": [
       4,
       1,
       4,
       4,
-      0,
+      1,
       9,
       8,
       2,
       7,
-      3,
+      4,
       4,
       11,
-      12,
-      6
+      14,
+      13
     ]
   },
   "auto_projects": [
     {
       "name": "nonchat",
-      "stars": 7,
+      "stars": 8,
       "desc": "🎨 Feature-rich chat plugin with custom formats, HEX colors, private messaging and chat bub",
       "lang": "Java"
     },
@@ -40,10 +40,10 @@
       "lang": "Kotlin"
     },
     {
-      "name": "Utophii",
+      "name": "dorganizer",
       "stars": 0,
-      "desc": "",
-      "lang": "Python"
+      "desc": "A local CLI utility that monitors your downloads folder and automatically organizes files ",
+      "lang": "TypeScript"
     }
   ],
   "activity": {
