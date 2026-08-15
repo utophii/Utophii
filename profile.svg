@@ -1,0 +1,117 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="860" height="560" viewBox="0 0 860 560" role="img" aria-label="utophii profile">
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+.root{font-family:'Segoe UI',system-ui,-apple-system,sans-serif;background:#F5F9FC;
+  color:#3A5570;padding:44px 52px 40px;position:relative;overflow:hidden;height:100%}
+.wave{position:absolute;left:0;right:0;top:0;height:5px;
+  background:linear-gradient(90deg,#6FA8D6,#E4F0F9 60%,#6FA8D6)}
+@keyframes fadeup{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}}
+@keyframes pulse{0%,100%{opacity:1}50%{opacity:.45}}
+@keyframes grow{from{transform:scaleY(0)}to{transform:scaleY(1)}}
+
+.head{display:flex;align-items:flex-start;justify-content:space-between;
+  animation:fadeup .6s ease backwards}
+.nick{font-size:34px;font-weight:600;letter-spacing:.14em;color:#3A5570}
+.nick b{color:#6FA8D6;font-weight:600}
+.role{margin-top:9px;font-size:14.5px;color:#6E8CA6;letter-spacing:.04em}
+.sub{margin-top:5px;font-size:12px;color:#A3B8CB;letter-spacing:.08em}
+.status{display:flex;align-items:center;font-size:12px;color:#6E8CA6;
+  background:#FFFFFF;border:1px solid #DDE9F3;border-radius:20px;
+  padding:7px 15px;letter-spacing:.06em;white-space:nowrap}
+.sdot{width:8px;height:8px;border-radius:50%;background:#7FBF9E;margin-right:8px;
+  animation:pulse 2.6s ease-in-out infinite}
+.sdot.mid{background:#6FA8D6}
+.sdot.off{background:#A3B8CB;animation:none}
+
+.focus{margin-top:20px;display:flex;flex-wrap:wrap;gap:8px;
+  animation:fadeup .6s .1s ease backwards}
+.chip{font-size:12px;color:#6FA8D6;background:#E4F0F9;border-radius:14px;
+  padding:5px 13px;letter-spacing:.04em}
+
+.grid{display:flex;gap:22px;margin-top:26px}
+.card{background:#FFFFFF;border:1px solid #DDE9F3;border-radius:14px;
+  padding:20px 22px;animation:fadeup .6s ease backwards}
+.card.stackc{flex:1.25;animation-delay:.15s}
+.card.livec{flex:1;animation-delay:.25s;display:flex;flex-direction:column;
+  justify-content:space-between}
+.ct{font-size:11px;letter-spacing:.22em;color:#A3B8CB;
+  text-transform:uppercase;margin-bottom:15px}
+.ct i{display:inline-block;width:6px;height:6px;border-radius:50%;
+  background:#6FA8D6;margin-right:9px;vertical-align:1px}
+
+.srow{display:flex;align-items:baseline;margin-bottom:11px}
+.srow:last-child{margin-bottom:0}
+.sdom{width:118px;flex:none;font-size:11px;color:#A3B8CB;letter-spacing:.05em}
+.stags{display:flex;flex-wrap:wrap;gap:6px}
+.tag{font-size:11.5px;border-radius:10px;padding:3.5px 11px;letter-spacing:.02em}
+.tag.core{background:#6FA8D6;color:#fff}
+.tag.using{border:1px solid #DDE9F3;color:#6E8CA6;background:#F5F9FC}
+.tag.learning{border:1px dashed #DDE9F3;color:#A3B8CB}
+
+.metrics{display:flex;justify-content:space-between}
+.mcell{text-align:center;flex:1}
+.mval{font-size:24px;font-weight:600;color:#6FA8D6}
+.mlbl{margin-top:3px;font-size:10.5px;letter-spacing:.14em;color:#A3B8CB;
+  text-transform:uppercase}
+.streak{margin-top:18px;border-top:1px solid #DDE9F3;padding-top:16px}
+.spark{display:flex;align-items:flex-end;gap:5px;height:28px}
+.bar{flex:1;background:#DDE9F3;border-radius:3px 3px 0 0;transform-origin:bottom;
+  animation:grow .5s .4s ease backwards}
+.bar.lit{background:#6FA8D6}
+.sinfo{margin-top:10px;font-size:11.5px;color:#A3B8CB;letter-spacing:.05em}
+.snum{font-size:15px;font-weight:600;color:#3A5570;margin-right:5px}
+.snum.dim{color:#6E8CA6}
+.sdiv{margin:0 9px;color:#A3B8CB}
+
+.card.projc{margin-top:22px;animation-delay:.35s}
+.projects{display:flex;gap:14px}
+.proj{flex:1;background:#F5F9FC;border:1px solid #DDE9F3;border-radius:11px;
+  padding:14px 16px}
+.ptop{display:flex;justify-content:space-between;align-items:baseline}
+.pname{font-size:14px;font-weight:600;color:#3A5570}
+.pstars{font-size:11.5px;color:#6FA8D6}
+.pdesc{margin-top:6px;font-size:11.5px;line-height:1.45;color:#6E8CA6;
+  min-height:32px}
+.pmeta{margin-top:8px}
+.plang{font-size:10.5px;color:#A3B8CB;letter-spacing:.08em;
+  text-transform:uppercase}
+.pempty{font-size:12px;color:#A3B8CB;letter-spacing:.05em}
+
+.foot{margin-top:24px;text-align:center;font-size:11.5px;color:#A3B8CB;
+  letter-spacing:.24em;text-transform:uppercase;
+  animation:fadeup .6s .45s ease backwards}
+.foot b{color:#6FA8D6;font-weight:400}
+</style>
+<foreignObject x="0" y="0" width="860" height="560">
+<div class="root" xmlns="http://www.w3.org/1999/xhtml">
+  <div class="wave"></div>
+  <div class="head">
+    <div>
+      <div class="nick"><b>u</b> t o p h i i</div>
+      <div class="role">java &amp; kotlin developer · minecraft plugins</div>
+      <div class="sub">russia · solo · since 2021</div>
+    </div>
+    <div class="status"><span class="sdot"></span>active</div>
+  </div>
+  <div class="focus"><span class="chip">minecraft plugins</span><span class="chip">clean apis</span><span class="chip">small tools</span></div>
+  <div class="grid">
+    <div class="card stackc">
+      <div class="ct"><i></i>stack</div>
+      <div class="srow"><div class="sdom">languages</div><div class="stags"><span class="tag core">Java</span><span class="tag core">Kotlin</span><span class="tag using">JavaScript</span><span class="tag learning">Rust</span></div></div><div class="srow"><div class="sdom">backend · jvm</div><div class="stags"><span class="tag using">Spring</span><span class="tag using">Gradle</span><span class="tag using">Maven</span></div></div><div class="srow"><div class="sdom">minecraft</div><div class="stags"><span class="tag core">Paper / Spigot</span><span class="tag using">Adventure API</span></div></div><div class="srow"><div class="sdom">tools</div><div class="stags"><span class="tag core">Git</span><span class="tag using">Linux</span><span class="tag using">IntelliJ</span></div></div>
+    </div>
+    <div class="card livec">
+      <div>
+        <div class="ct"><i></i>this year</div>
+        <div class="metrics"><div class="mcell"><div class="mval">951</div><div class="mlbl">commits</div></div><div class="mcell"><div class="mval">10</div><div class="mlbl">repos</div></div><div class="mcell"><div class="mval">10</div><div class="mlbl">stars</div></div><div class="mcell"><div class="mval">2</div><div class="mlbl">followers</div></div></div>
+      </div>
+      <div class="streak"><div class="spark"><i class="bar lit" style="height:10px"></i><i class="bar" style="height:3px"></i><i class="bar lit" style="height:5px"></i><i class="bar lit" style="height:16px"></i><i class="bar" style="height:3px"></i><i class="bar" style="height:3px"></i><i class="bar lit" style="height:21px"></i><i class="bar lit" style="height:10px"></i><i class="bar lit" style="height:26px"></i><i class="bar lit" style="height:5px"></i><i class="bar" style="height:3px"></i><i class="bar lit" style="height:10px"></i><i class="bar lit" style="height:16px"></i><i class="bar lit" style="height:21px"></i></div><div class="sinfo"><span class="snum">3</span><span class="sl">day streak</span><span class="sdiv">·</span><span class="snum dim">9</span><span class="sl">longest</span></div></div>
+    </div>
+  </div>
+  <div class="card projc">
+    <div class="ct"><i></i>projects</div>
+    <div class="projects"><div class="proj"><div class="ptop"><span class="pname">nonchat</span><span class="pstars">★ 7</span></div><div class="pdesc">🎨 Feature-rich chat plugin with custom formats, HEX colors, private messaging and chat bub</div><div class="pmeta"><span class="plang">Java</span></div></div><div class="proj"><div class="ptop"><span class="pname">nonscenes</span><span class="pstars">★ 3</span></div><div class="pdesc">nonscenes is a free and open source cutscene plugin for minecraft 1.20.x - 1.21.x</div><div class="pmeta"><span class="plang">Kotlin</span></div></div><div class="proj"><div class="ptop"><span class="pname">annotation</span></div><div class="pdesc">Transparent overlay for drawing on the screen</div><div class="pmeta"><span class="plang">Rust</span></div></div></div>
+  </div>
+  <div class="foot"><b>—</b>&#160;&#160;calm code, clear mind&#160;&#160;<b>—</b></div>
+</div>
+</foreignObject>
+</svg>

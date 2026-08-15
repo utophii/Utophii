@@ -1,0 +1,53 @@
+{
+  "updated": "2026-08-15",
+  "metrics": {
+    "commits": 951,
+    "repos": 10,
+    "stars": 10,
+    "followers": 2
+  },
+  "streak": {
+    "current": 3,
+    "longest": 9,
+    "spark": [
+      2,
+      0,
+      1,
+      3,
+      0,
+      0,
+      4,
+      2,
+      5,
+      1,
+      0,
+      2,
+      3,
+      4
+    ]
+  },
+  "auto_projects": [
+    {
+      "name": "nonchat",
+      "stars": 7,
+      "desc": "🎨 Feature-rich chat plugin with custom formats, HEX colors, private messaging and chat bub",
+      "lang": "Java"
+    },
+    {
+      "name": "nonscenes",
+      "stars": 3,
+      "desc": "nonscenes is a free and open source cutscene plugin for minecraft 1.20.x - 1.21.x",
+      "lang": "Kotlin"
+    },
+    {
+      "name": "annotation",
+      "stars": 0,
+      "desc": "Transparent overlay for drawing on the screen",
+      "lang": "Rust"
+    }
+  ],
+  "activity": {
+    "label": "active",
+    "level": "on"
+  }
+}

@@ -1,0 +1,62 @@
+identity:
+  username:     "utophii"
+  display_nik:  "u t o p h i i"
+  role:         "java & kotlin developer · minecraft plugins"
+  sub:          "russia · solo · since 2021"
+  principle_en: "calm code, clear mind"
+  status:       "active"
+  status_level: "on"
+
+focus:
+  - "minecraft plugins"
+  - "clean apis"
+  - "small tools"
+
+stack:
+  "languages":
+    - { name: "Java",        status: core }
+    - { name: "Kotlin",      status: core }
+    - { name: "JavaScript",  status: using }
+    - { name: "Python",      status: using }
+    - { name: "Rust",        status: learning }
+    - { name: "TypeScript",  status: learning }
+  "backend · jvm":
+    - { name: "Spring",      status: using }
+    - { name: "Gradle",      status: using }
+    - { name: "Maven",       status: using }
+  "minecraft":
+    - { name: "Paper / Spigot", status: core }
+    - { name: "Adventure API",  status: using }
+  "tools":
+    - { name: "Git",         status: core }
+    - { name: "Linux",       status: using }
+    - { name: "IntelliJ",    status: using }
+
+projects:
+  mode:   "auto"
+  max:    3
+  pinned: []
+
+auto_projects: []
+
+palette:
+  bg:        "#F5F9FC"
+  surface:   "#FFFFFF"
+  line:      "#DDE9F3"
+  accent:    "#6FA8D6"
+  accent_bg: "#E4F0F9"
+  text:      "#3A5570"
+  text_mid:  "#6E8CA6"
+  text_dim:  "#A3B8CB"
+  green:     "#7FBF9E"
+
+metrics:
+  commits:   951
+  repos:     10
+  stars:     11
+  followers: 2
+
+streak:
+  current: 0
+  longest: 0
+  spark:   [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
