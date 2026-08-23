@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-22",
+  "updated": "2026-08-23",
   "metrics": {
     "commits": 458,
     "repos": 6,
@@ -7,10 +7,9 @@
     "followers": 3
   },
   "streak": {
-    "current": 25,
+    "current": 0,
     "longest": 25,
     "spark": [
-      2,
       7,
       4,
       4,
@@ -23,6 +22,7 @@
       4,
       1,
       1,
+      0,
       0
     ]
   },
