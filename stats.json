@@ -34,9 +34,9 @@
       "lang": "Java"
     },
     {
-      "name": "nonscenes",
-      "stars": 3,
-      "desc": "nonscenes is a free and open source cutscene plugin for minecraft 1.20.x - 1.21.x",
+      "name": "VEngine",
+      "stars": 1,
+      "desc": "Engine for creation animated particle effects",
       "lang": "Kotlin"
     },
     {
