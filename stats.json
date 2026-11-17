@@ -1,16 +1,15 @@
 {
-  "updated": "2026-11-16",
+  "updated": "2026-11-17",
   "metrics": {
-    "commits": 612,
-    "repos": 7,
+    "commits": 614,
+    "repos": 8,
     "stars": 13,
     "followers": 6
   },
   "streak": {
-    "current": 5,
+    "current": 6,
     "longest": 45,
     "spark": [
-      4,
       4,
       5,
       1,
@@ -23,6 +22,7 @@
       5,
       2,
       6,
+      7,
       0
     ]
   },
@@ -40,10 +40,10 @@
       "lang": "Kotlin"
     },
     {
-      "name": "nonscenes-docs",
+      "name": "NatroMacro-Linux",
       "stars": 0,
-      "desc": "",
-      "lang": "CSS"
+      "desc": "Port of Natro macro for ArchLinux",
+      "lang": "AutoHotkey"
     }
   ],
   "activity": {
