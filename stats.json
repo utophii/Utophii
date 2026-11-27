@@ -1,16 +1,15 @@
 {
-  "updated": "2026-11-26",
+  "updated": "2026-11-27",
   "metrics": {
-    "commits": 662,
+    "commits": 663,
     "repos": 8,
-    "stars": 14,
+    "stars": 15,
     "followers": 6
   },
   "streak": {
     "current": 62,
     "longest": 62,
     "spark": [
-      5,
       2,
       6,
       7,
@@ -23,7 +22,8 @@
       14,
       30,
       9,
-      3
+      5,
+      0
     ]
   },
   "auto_projects": [
@@ -35,7 +35,7 @@
     },
     {
       "name": "VEngine",
-      "stars": 3,
+      "stars": 4,
       "desc": "Engine for creation animated particle effects",
       "lang": "Kotlin"
     },
